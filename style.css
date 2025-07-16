@@ -263,7 +263,15 @@
 @media (max-width:1023px) {
 
    header{
-      padding: 12px 20px;
+    
+    width: 100%;
+    padding: 10px 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+      
 
    }
 
@@ -273,7 +281,42 @@
    }
 
    .navaction a{
-      padding-left: 10px ;
+      padding-left: 30px ;
+   }
+
+   .main{
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center; 
+  background: url(./imags/background.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+   }
+
+ .main h2{
+       
+      margin-left: 125px;
+      margin-top: 34px;
+      font-weight: 500;
+   }
+
+   .main h2 span{
+      font-size: 3em;
+      margin-left: -1px;
+   }
+
+   .main h3{
+      margin-left: 138px;
+   }
+
+   .main-btn{
+      margin-left: 150px;
+   }
+
+   .Social_media{
+      margin-left: 150px;
+      margin-top: -20px;
    }
 
    .title{
@@ -327,23 +370,24 @@
   font-weight: 500;
   text-align: left;
   margin-left: 70px;
-  margin-top: 60px;
+  margin-top: 35px;
  }
 
   .main h2 span{
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #438852;
   font-size: 1.7em;
   font-weight: 600;
  }
 
  .main h3{
-   font-size: 1.09em;
-   margin-left: 50px;
+   font-size: 1.0em;
+   margin-left: 68px;
  }
 
  .main-btn{
+   margin-top: -20px;
    margin-left: 80px;
    font-size: 1.1em;
    font-weight: 700;
@@ -356,13 +400,17 @@
  }
 
  .Social_media {
-    margin-top: -35px;
-    margin-left: 80px;
+    margin-top: -20px;
+    margin-left: 90px;
  }
 
  .Social_media a{
-   padding-right:15px;
+   padding-right:20px;
    
+ }
+
+ .footer .Social_media{
+   margin-top: -2px;
  }
 
 
@@ -376,6 +424,106 @@
       font-size: 0.8em;
       font-weight: 500;
    }
+
+   header{
+    padding: 10px 20px ;
+   }
+
+  .logo{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+   }
+
+   .navaction {
+    text-decoration: none;
+    font-size: .7em;
+    font-weight: 500;
+    padding-left: 10px;
+    color: #000;
+   }
+    
+   .navaction a{
+      padding-left: 10px;
+   }
+
+
+     section{
+      padding: 0px 0px;
+   }
+   .main{
+   width: 100%;
+   min-height:18vh;
+   display: flex;
+   align-items: center; 
+   background: url(./imags/background.png) no-repeat;
+   background-size:contain;
+   background-position: center;
+   }
+
+ .main h2{
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 45px;
+  margin-top: 36px;
+ }
+
+  .main h2 span{
+  display: inline-block;
+  margin-top: 3px;
+  color: #438852;
+  font-size: 1.9em;
+  font-weight: 600;
+
+ }
+
+ .main h3{
+   font-size: 0.5em;
+   margin-left: 45px;
+   margin-top: 5px;
+ }
+
+ .main-btn{
+   margin-left: 50px;
+   font-size: 0.8em;
+   font-weight: 700;
+   background-color: #3a6;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 0.9375em 0.9875em;
+   margin-top: -10px;
+}
+
+.Projects .title{
+   padding-top: 40px;
+}
+
+.contact .title{
+   padding-top: 40px;
+}
+
+
+
+ .Social_media {
+    margin-top: -35px;
+    margin-left: 52px;
+ }
+
+ .Social_media a{
+   padding-right:10px;
+   font-size: 1em;
+   
+ }
+
+ .footer .Social_media a{
+   margin-top: -2px;
+   padding-right: 10px;
+ }
+
 
 
 }
