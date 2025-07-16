@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  header{
+    background-color: white;
+    width: 100%;
+    padding: 10px 200px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+ }
+
+ .logo{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+ }
+
+ .logo:hover{
+   color: #3a6;
+ }
+  
+ .navaction a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    color: #000;
+   
+ }
+
+ .navaction a:hover{
+    color: #c74848;
+ }
+
+ section{
+  padding: 100px 200px;
+ }
+
+ .main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; 
+  background: url(./imags/background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+
+ .main h2{
+  color: white;
+  font-size: 1.4em;
+  font-weight: 500;
+ }
+
+ .main h2 span{
+  display: inline-block;
+  margin-top: 10px;
+  color: #438852;
+  font-size: 3em;
+  font-weight: 600;
+ }
+
+ .main h3{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+ }
+
+ .main-btn{
+   color: white;
+   font-size: 1.1em;
+   font-weight: 700;
+   background-color: #3a6;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 15px;
+   padding: 0.9375em 2.1875em;
+   margin-bottom: 40px;
+   letter-spacing: 1px;
+   transition: 0.7s ease;
+
+ }
+
+ .main-btn:hover{
+  color: rgb(52, 52, 194);
+  transform: scale(1.1);
+ }
+
+.Social_media a{
+  color: rgb(178, 180, 38);
+  font-size: 1.3em;
+  padding-right: 30px;
+}
+
+.Social_media a:hover{
+   color: purple;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  color: #3a6;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.title:hover{
+   color: #833c3c;
+}
+
+.content{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.card{
+   background-color: white;
+   width: 16.25em;
+   box-shadow: 0 5px 25px rgba(1, 1, 1 , 15%);
+   border-radius: 10px;
+   padding: 25px;
+   margin: 15px;
+   transition: 0.7s ease;
+
+}
+
+.card:hover{
+   transform: scale(1.1);
+}
+
+.icon{
+   color: #3a6;
+   font-size: 8em;
+   text-align: center;
+}
+
+.info{
+   text-align: center;
+}
+
+.info h3{
+   color: #3a6;
+   font-size: 1.2em;
+   font-weight: 700;
+   margin: 10px;
+}
+
+.info p{
+   color: #312626;
+}
+
+.Projects{
+   background-color: #000016;
+}
+
+.Projects .contant{
+   margin-top: 30px;
+}
+
+.project_cards{
+   background-color: white;
+   border: 1px solid white;
+   min-height: 14em ;
+   width: 17em ;
+   overflow: hidden;
+   margin: 20px;
+   transition: 0.7s ease;
+}
+
+.project_cards:hover{
+   transform: scale(1.1);
+}
+
+.project_cards:hover .project_image{
+   opacity: 0.9;
+}
+
+.project_image img{
+   width: 100%;
+}
+
+.project_info{
+   padding: 1em;
+}
+
+.project_category{
+   color: rgb(75, 59, 59);
+   font-size: 0.8em;
+}
+
+.strong_title{
+   display: flex;
+   justify-content: space-between;
+   text-transform: uppercase ;
+   font-weight: 800;
+   padding-top: 10px;
+}
+
+.more_datails{
+   text-decoration: none;
+   color: #3a6;
+}
+
+.more_datails:hover{
+   color: purple;
+}
+
+.content .icon{
+   font-size: 5em;
+
+}
+
+.content .info h3{
+   color: #000;
+}
+
+.content .info p{
+   font-size: 1.2em;
+}
+
+.footer{
+   background-color: #000016 ;
+   color: white;
+   padding: 2em;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer_title{
+   font-weight: 600;
+   font-size: 1.3em;
+}
+
+.footer_title span{
+   color: #3a6;
+}
+
+.footer .Social_media a{
+   padding-right: 20px ;
+
+}
+   
+@media (max-width:1023px) {
+
+   header{
+      padding: 12px 20px;
+
+   }
+
+   .logo{
+      font-size: 1.5em;
+
+   }
+
+   .navaction a{
+      padding-left: 10px ;
+   }
+
+   .title{
+      font-size: 1.8em;
+   }
+
+   section{
+      padding:80px 20px ;
+   }
+
+   .main h2{
+      font-size: 1em;
+   }
+
+   .main h3{
+      font-size: 1.3em;
+   }
+
+   .content{
+      flex-direction: column;
+      align-items: center; 
+   }
+   .footer_title{
+      font-size: 0.9em;
+      font-weight: 500;
+   }
+
+   footer .Social_media a{
+      padding-right: 30px ;
+      font-size: 0.9em;
+   }
+}
+
+@media (max-width:641px){
+   body{
+   font-size: 14px;
+   }
+   .main{
+   width: 100%;
+   min-height: 25vh;
+   display: flex;
+   align-items: center; 
+   background: url(./imags/background.png) no-repeat;
+   background-size:contain;
+   background-position: right;
+   }
+
+ .main h2{
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 60px;
+ }
+
+  .main h2 span{
+  display: inline-block;
+  margin-top: 10px;
+  color: #438852;
+  font-size: 1.7em;
+  font-weight: 600;
+ }
+
+ .main h3{
+   font-size: 1.09em;
+   margin-left: 50px;
+ }
+
+ .main-btn{
+   margin-left: 80px;
+   font-size: 1.1em;
+   font-weight: 700;
+   background-color: #3a6;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 15px;
+   padding: 0.9375em 1.1875em;
+
+ }
+
+ .Social_media {
+    margin-top: -35px;
+    margin-left: 80px;
+ }
+
+ .Social_media a{
+   padding-right:15px;
+   
+ }
+
+
+}
+
+@media (max-width:300px){
+   body{
+      font-size: 10px;
+   }
+   .footer_title{
+      font-size: 0.8em;
+      font-weight: 500;
+   }
+
+
+}
