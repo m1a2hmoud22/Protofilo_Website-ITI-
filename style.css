@@ -260,270 +260,105 @@
 
 }
    
-@media (max-width:1023px) {
+ 
+/*=============================================
+=            Media Queries (Responsive)       =
+=============================================*/
 
-   header{
-    
-    width: 100%;
-    padding: 10px 100px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 999;
-      
+@media (max-width: 1023px) {
+    header {
+        /* Reduce padding for smaller screens */
+        padding: 12px 30px;
+    }
 
-   }
+    .navaction a {
+        padding-left: 15px;
+    }
 
-   .logo{
-      font-size: 1.5em;
+    .title {
+        font-size: 1.8em;
+    }
 
-   }
+    section {
+        /* Reduce padding for smaller screens */
+        padding: 80px 30px;
+    }
 
-   .navaction a{
-      padding-left: 30px ;
-   }
-
-   .main{
-  width: 100%;
-  min-height: 60vh;
+    .main{
+  min-height: 100vh;
   display: flex;
   align-items: center; 
   background: url(./imags/background.png) no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-   }
+    }
 
- .main h2{
-       
-      margin-left: 125px;
-      margin-top: 34px;
-      font-weight: 500;
-   }
+    .main h2 {
+        font-size: 1.2em;
+    }
 
-   .main h2 span{
-      font-size: 3em;
-      margin-left: -1px;
-   }
+    .main h3 {
+        font-size: 1.4em;
+    }
 
-   .main h3{
-      margin-left: 138px;
-   }
-
-   .main-btn{
-      margin-left: 150px;
-   }
-
-   .Social_media{
-      margin-left: 150px;
-      margin-top: -20px;
-   }
-
-   .title{
-      font-size: 1.8em;
-   }
-
-   section{
-      padding:80px 20px ;
-   }
-
-   .main h2{
-      font-size: 1em;
-   }
-
-   .main h3{
-      font-size: 1.3em;
-   }
-
-   .content{
-      flex-direction: column;
-      align-items: center; 
-   }
-   .footer_title{
-      font-size: 0.9em;
-      font-weight: 500;
-   }
-
-   footer .Social_media a{
-      padding-right: 30px ;
-      font-size: 0.9em;
-   }
-}
-
-@media (max-width:641px){
-   body{
-   font-size: 14px;
-   }
-   .main{
-   width: 100%;
-   min-height: 25vh;
-   display: flex;
-   align-items: center; 
-   background: url(./imags/background.png) no-repeat;
-   background-size:contain;
-   background-position: right;
-   }
-
- .main h2{
-  color: white;
-  font-size: 1.3em;
-  font-weight: 500;
-  text-align: left;
-  margin-left: 70px;
-  margin-top: 35px;
- }
-
-  .main h2 span{
-  display: inline-block;
-  margin-top: 5px;
-  color: #438852;
-  font-size: 1.7em;
-  font-weight: 600;
- }
-
- .main h3{
-   font-size: 1.0em;
-   margin-left: 68px;
- }
-
- .main-btn{
-   margin-top: -20px;
-   margin-left: 80px;
-   font-size: 1.1em;
-   font-weight: 700;
-   background-color: #3a6;
-   text-decoration: none;
-   display: inline-block;
-   border-radius: 15px;
-   padding: 0.9375em 1.1875em;
-
- }
-
- .Social_media {
-    margin-top: -20px;
-    margin-left: 90px;
- }
-
- .Social_media a{
-   padding-right:20px;
-   
- }
-
- .footer .Social_media{
-   margin-top: -2px;
- }
-
+    /* Make card sections stack vertically instead of horizontally */
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
-@media (max-width:300px){
-   body{
-      font-size: 10px;
-   }
-   .footer_title{
-      font-size: 0.8em;
-      font-weight: 500;
-   }
+@media (max-width: 767px) {
+    body {
+       font-size: 14px;
+    }
 
-   header{
-    padding: 10px 20px ;
-   }
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-  .logo{
-    text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: 700;
-   }
-
-   .navaction {
-    text-decoration: none;
-    font-size: .7em;
-    font-weight: 500;
-    padding-left: 10px;
-    color: #000;
-   }
+    .navaction {
+        margin-top: 10px;
+    }
     
-   .navaction a{
-      padding-left: 10px;
-   }
+    .navaction a {
+        padding-left: 10px;
+    }
 
+    .main h2 {
+        font-size: 1em;
+    }
 
-     section{
-      padding: 0px 0px;
-   }
-   .main{
-   width: 100%;
-   min-height:18vh;
-   display: flex;
-   align-items: center; 
-   background: url(./imags/background.png) no-repeat;
-   background-size:contain;
-   background-position: center;
-   }
+    .main h2 span {
+        font-size: 2.5em; /* Make the main title smaller */
+    }
 
- .main h2{
-  font-size: 0.8em;
-  font-weight: 500;
-  text-align: left;
-  margin-left: 45px;
-  margin-top: 36px;
- }
+    .main h3 {
+        font-size: 1.2em;
+    }
 
-  .main h2 span{
-  display: inline-block;
-  margin-top: 3px;
-  color: #438852;
-  font-size: 1.9em;
-  font-weight: 600;
+    /* Stack footer items and center them */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
- }
+    .footer .Social_media {
+        padding-right: 0;
+        margin-top: 15px;
+    }
 
- .main h3{
-   font-size: 0.5em;
-   margin-left: 45px;
-   margin-top: 5px;
- }
+    .footer .Social_media a {
+        padding: 0 10px;
+    }
 
- .main-btn{
-   margin-left: 50px;
-   font-size: 0.8em;
-   font-weight: 700;
-   background-color: #3a6;
-   text-decoration: none;
-   display: inline-block;
-   border-radius: 10px;
-   padding: 0.9375em 0.9875em;
-   margin-top: -10px;
+    
+    .Projects .content {
+        margin-top: 30px;
+    }
 }
 
-.Projects .title{
-   padding-top: 40px;
-}
-
-.contact .title{
-   padding-top: 40px;
-}
-
-
-
- .Social_media {
-    margin-top: -35px;
-    margin-left: 52px;
- }
-
- .Social_media a{
-   padding-right:10px;
-   font-size: 1em;
-   
- }
-
- .footer .Social_media a{
-   margin-top: -2px;
-   padding-right: 10px;
- }
-
-
-
-}
