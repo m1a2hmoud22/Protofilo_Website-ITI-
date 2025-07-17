@@ -15,7 +15,7 @@
     width: 100%;
     padding: 10px 200px ;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     position: fixed;
     z-index: 999;
@@ -94,7 +94,7 @@
    padding: 0.9375em 2.1875em;
    margin-bottom: 40px;
    letter-spacing: 1px;
-   transition: 0.7s ease;
+   transition: .7s ease;
 
  }
 
@@ -105,7 +105,7 @@
 
 .Social_media a{
   color: rgb(178, 180, 38);
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding-right: 30px;
 }
 
@@ -182,7 +182,7 @@
    border: 1px solid white;
    min-height: 14em ;
    width: 17em ;
-   overflow: hidden;
+   overflow:hidden;
    margin: 20px;
    transition: 0.7s ease;
 }
@@ -261,13 +261,13 @@
 }
    
  
-/*=============================================
-=            Media Queries (Responsive)       =
-=============================================*/
+/*
+            Media Queries (Responsive)      
+*/
 
 @media (max-width: 1023px) {
     header {
-        /* Reduce padding for smaller screens */
+        
         padding: 12px 30px;
     }
 
@@ -280,7 +280,7 @@
     }
 
     section {
-        /* Reduce padding for smaller screens */
+        
         padding: 80px 30px;
     }
 
@@ -301,7 +301,7 @@
         font-size: 1.4em;
     }
 
-    /* Make card sections stack vertically instead of horizontally */
+    
     .content {
         flex-direction: column;
         align-items: center;
@@ -333,14 +333,14 @@
     }
 
     .main h2 span {
-        font-size: 2.5em; /* Make the main title smaller */
+        font-size: 2.5em; 
     }
 
     .main h3 {
         font-size: 1.2em;
     }
 
-    /* Stack footer items and center them */
+    
     .footer {
         flex-direction: column;
         align-items: center;
